@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.tagElement{
+	border-bottom:1px solid #0099cd;
+	padding:20px 25px;	
+}
+.tagElementName{
+	background: none repeat scroll 0 0 #676767;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 3px 12px;
+}
+.subTagElementNameLast{
+	background:url("/static/images/public/lastChild.gif")  0 0 no-repeat;
+	margin-left:24px;
+	padding:10px 24px 0 24px;	
+}
+/*.subTagElementNameLastHaveChild{
+	background:url("/static/images/public/lastHaveChild.gif")  0 0 no-repeat;
+	margin-left:24px;
+	padding:10px 24px 0 24px;	
+}
+.subTagElementNameMiddleHaveChild{
+	background:url("/static/images/public/lastHaveChild.gif")  0 0 no-repeat;
+	margin-left:24px;
+	padding:10px 24px 0 24px;	
+}*/
+.subTagElementNameMiddle{
+	border-left:1px solid #0099cd;
+	background:url("/static/images/public/middleChild.gif")  0 0 no-repeat;
+	margin-left:24px;
+	padding:10px 24px 0 24px;	
+}
