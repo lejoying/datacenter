@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document sildLeft*/
+.sildLeftTitle{
+	height:55px;
+	line-height:55px;
+	border-bottom:4px solid #0099cd;
+	font-size:25px;	
+	padding-left:42px;
+}
+.personalSetting_aa, .personalSetting_aa:hover{
+	display: inline-block;
+    height: 20px;
+    position:absolute;
+    width: 20px;
+	right:13px;
+	top:18px;
+	cursor:pointer;
+	background-image:url("/static/images/public/icon/smallicon.png");
+	background-repeat:no-repeat;
+}
+.personalSetting_aa{
+	background-position:-20px -20px;	
+}
+.popmenuSetting{
+	position:absolute;	
+	width:143px;
+	z-index:20;
+}
+.popmenuSettingContent{
+	width:135px;
+	height:79px;
+	border:4px solid #0099cd;
+	background:#fff;
+	border-radius:3px;
+}
+.popmenuSettingContent div{
+	height:26px;	
+}
+.popmenuSettingContent div a, .popmenuSettingContent div a:hover{
+	font-size:14px;
+	height:26px;
+	line-height:26px;
+	padding-left:10px;
+	color:#0099cd;
+	display:block;	
+	border-bottom:1px dotted #ceeaf3;
+}
+.popmenuSettingContent div a:hover{
+	background:#ceeaf3;
+	color:#676767;
+}
+.popmenuSettingSharp{
+	background:url("/static/images/sildLeft/popmenuSettingSharp.png") no-repeat;
+	height:13px;
+	position:relative;
+	top:4px;
+	left:96px;
+	width:24px;
+}
+.personalSetting_aa:hover{
+	background-position:-40px -20px;
+}
+.facePic{
+	width:50px;
+	height:50px;
+	border:4px solid #0099cd;
+	border-radius:50px;
+	overflow:hidden;
+	position:absolute;
+	left:-20px;
+	top:-20px;
+}
+.leftContent{
+	position:relative;
+}
+.appGroup{
+	width:44px;
+	height:44px;
+	border:2px solid #0099cd;
+	border-radius:15px;	
+	position:absolute;
+	padding:2px;
+	cursor:pointer;
+}
+.appGroup span{
+	padding:1px;	
+}
+.popmenuFrame{
+	width:270px;
+	position:absolute;	
+}
+.sildLeftSharp{
+	background:url("/static/images/sildLeft/sildLeftSharp.png") no-repeat;
+	height:11px;
+	position:relative;
+	left:28px;
+	top:1px;
+}
+.sildPopContent{
+	border-top:1px solid #0099cd;
+	border-bottom:1px solid #0099cd;
+	background:#ceeaf3;	
+}
+.popappIcon{
+	float:left;	
+	margin:6px 0 6px 12px;
+}
+.popappIcon img{
+	border:2px solid #0099cd;
+	border-radius:15px;	
+	background:#fff;	
+	width:44px;
+	height:44px;
+	padding:2px;
+	cursor:pointer;
+}
+.popappIcon div{
+	font-size:12px;
+	text-align:center;
+	width:52px;
+	white-space:nowrap;
+	text-overflow:ellipsis; 
+	overflow: hidden;
+	margin:5px 0 0;
+}
+.sildPopContent > *:first-child{
+	margin:10px 0 6px 12px;
+	font-size:16px;
+	font-weight:bold;
+	color:#333;	
+}
